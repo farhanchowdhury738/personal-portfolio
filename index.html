@@ -290,78 +290,36 @@
 
 <!-- Introduction video -->
 
-        <section class="testimonials">
+        <section class="intro-video-section">
 
           <h3 class="h3 testimonials-title">About Myself</h3>
 
-          <ul class="testimonials-list has-scrollbar">
+          <div class="intro-video-card">
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item data-testimonials-video="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&rel=0">
-
-                <figure>
-            
-                  <img style="border-radius: 30px;" src="./assets/images/farhan.jpg" alt="Farhan Chowdhury" width="60" data-testimonials-avatar>
-
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Introduction Video</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    A short introduction about my academic background, technical interests,
-                    and the projects I am currently building.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-<!-- Introduction modal -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Farhan Chowdhury" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            <div class="intro-video-player">
+              <iframe
+                src="assets/images/vdo.mp4"
+                title="Farhan Chowdhury Introduction Video"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
             </div>
 
-            <div class="modal-content">
+            <div class="intro-video-content">
+              <img src="./assets/images/farhan.jpg" alt="Farhan Chowdhury" class="intro-video-avatar">
 
-              <h4 class="h3 modal-title" data-modal-title>Introduction Video</h4>
-
-              <time datetime="2026-07-05">Updated July 5, 2026</time>
-
-              <div class="testimonial-video-frame" data-modal-video></div>
-
-              <div data-modal-text>
-                <p>
+              <div>
+                <h4 class="h4 intro-video-title">Introduction Video</h4>
+                <p class="intro-video-text">
                   A short introduction about my academic background, technical interests,
                   and the projects I am currently building.
                 </p>
               </div>
-
             </div>
 
-          </section>
+          </div>
 
-        </div>
+        </section>
 
 
 
@@ -616,7 +574,7 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects" data-portfolio-section>
